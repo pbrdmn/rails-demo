@@ -7,7 +7,17 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+> `3.1.2`
+
+## System dependencies
+
+```bash
+brew install pyenv vips
+
+# Optional, for deploying to heroku
+brew libpq postgresql
+brew tap heroku/brew && brew install heroku
+```
 
 * Configuration
 
